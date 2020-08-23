@@ -1,87 +1,17 @@
 /* Global CSS */
 
 * {
-  color: #4A4A4A;
   box-sizing: border-box;
-  font-family: 'Karla', sans-serif;
 }
 
 /* Main Styles */
 body {
     background-color: #FAFAFA;
+    color: #4A4A4A;
+    font-family: 'Karla', sans-serif;
 }
 
-header {
-    width: 90%;
-    margin: auto;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    font-weight: bold;
-}
-
-.main-nav li {
-    list-style: none;
-    display: inline-flex;
-    padding-left: 40px;
-    font-size: 1.2em;
-}
-
-.main-nav a {
-    text-decoration: none;
-}
-
-.intro {
-    padding-top: 30px;
-    display: flex;
-    font-size: 1.5em;
-    justify-content: space-between;
-}
-
-.intro p {
-    padding-right: 100px;
-    font-size: .9em;
-    line-height: 1.5em;
-    width: 100%;
-}
-
-.profile-picture {
-   width:55%;  
-}
-
-.portfolio-1,
-.portfolio-2,
-.portfolio-3,
-.portfolio-4,
-.portfolio-5,
-.portfolio-6 {
-    width: 200px;
+.name {
     text-align: center;
-    align-content: center;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-.portfolio {
-    width: 90%;
     margin: auto;
-    background-color: white;
-    padding: 50px 20px;
-}
-
-.portfolio h2 {
-    text-align: center;
-}
-
-.portfolio-thumbnails {
-    width:200%
-}
-
-.portfolio-gird-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
