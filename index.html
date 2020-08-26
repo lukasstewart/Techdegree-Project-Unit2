@@ -6,16 +6,17 @@
         <link rel="stylesheet"  href="styles.css">
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="nav-bar">
+            <div class="nav-bar" id="top">
                 <h1 class="name">Lukas Stewart</h1>
                 <nav>
                     <ul class="main-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,6 +26,62 @@
                 <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
             </div>
         </header>
+
+        <div class="portfolio" id="portfolio">
+            <h2 class="portfolio-section-heading">Portfolio</h2>
+            <div class="portfolio-grid-container">
+                <div class="portfolio-1">
+                    <img src="images/portfolio-1.png" alt="marketing page thumbnail" class="portfolio-thumbnails">
+                    <h3>Marketing Page</h3>
+                    <p class="description">This Project Shows the front page of marketing website for a specific business I'm interested in.</p>
+                </div>
+                <div class="portfolio-2">
+                    <img src="images/portfolio-2.png" alt="search page thumbnail" class="portfolio-thumbnails">
+                    <h3>Search Page</h3>
+                    <p class="description">This Project  searches through a specific database to find information that thr user is trying to lookup.</p>
+                </div>
+                <div class="portfolio-3">
+                    <img src="images/portfolio-3.png" alt="travel app thumbnail" class="portfolio-thumbnails">
+                    <h3>Marketing Page</h3>
+                    <p class="description">This Project Shows the front page of marketing website for a specific business I'm interested in.</p>
+                </div>
+                <div class="portfolio-4">
+                    <img src="images/portfolio-4.png" alt="map thumbnail" class="portfolio-thumbnails">
+                    <h3>Marketing Page</h3>
+                    <p class="description">This Project Shows the front page of marketing website for a specific business I'm interested in.</p>
+                </div>
+                <div class="portfolio-5">
+                    <img src="images/portfolio-5.png" alt="photo gallery thumbnail" class="portfolio-thumbnails">
+                    <h3>Marketing Page</h3>
+                    <p class="description">This Project Shows the front page of marketing website for a specific business I'm interested in.</p>
+                </div>
+                <div class="portfolio-6">
+                    <img src="images/portfolio-6.png" alt="calculator thumbnail" class="portfolio-thumbnails">
+                    <h3>Marketing Page</h3>
+                    <p class="description">This Project Shows the front page of marketing website for a specific business I'm interested in.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact"> 
+            <h2>Contact</h2>  
+            <p class="contact-text">If you're interested in chatting, or want to hear more about what I've been working on, I'd love to hear from you!</p>
+            <p>Phone: <span class="contact-emphasis">+1 (555) 1234</span></p>
+            <p>Email: <span class="contact-emphasis">email@mysite.com</span></p>
+        </div>
+
+        <footer>
+            <p>Lukas Stewart</p>
+            <a href="#top"><button>BACK TO TOP</button></a>
+
+            <nav>
+                <ul class="footer-nav">
+                  <li><a href="#top">HOME</a></li>
+                  <li><a href="#portfolio">PORTFOLIO</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
+                </ul>
+              </nav>
+        </footer>
+
     </body>
 </html>
 
