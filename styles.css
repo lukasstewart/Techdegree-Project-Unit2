@@ -130,7 +130,7 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: .5px solid rgba(128, 128, 128, 0.342);
-    width: 90%;
+    width: 100%;
     margin: auto;
     color: rgba(128, 128, 128, 0.562);
 }
@@ -154,8 +154,12 @@ button {
 
 
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
+  and (min-width: 768px)  {
+
+    body {
+        width: 90%;
+        margin: auto;
+    }
 
     .main-nav li {
         display: inline-block;
@@ -209,7 +213,7 @@ button {
    }
 
    .contact {
-       padding: 20px 70px 0;
+       padding: 20px 70px 20px 70px;
    }
 
    button {
@@ -232,8 +236,70 @@ button {
        font-size: .8em;
    } 
 
+   footer {
+       padding-bottom: 50px;
+       width: 100%;
+       margin: auto;
+   }
+  }
 
-  
+  @media only screen 
+  and (min-width: 1024px)  {
 
+    body {
+        width: 90%;
+        margin: auto;
+    }
 
+    .nav-bar {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-end;
+    }
+
+    header {
+        padding-top: 50px;
+    }
+
+    .name {
+        margin: 5px 0;
+        padding: 10px 0;
+    }
+
+    .intro {
+        padding-top: 15px;
+    }
+
+    .main-nav li {
+        margin: 5px 0 5px 10px;
+        padding: 10px 0 10px 20px;
+    }
+
+    .portfolio-1,
+   .portfolio-2,
+   .portfolio-3,
+   .portfolio-4,
+   .portfolio-5,
+   .portfolio-6 {
+       width: 32%;
+       padding: 0 5px;
+  }
+
+  .portfolio-grid-container {
+      justify-content: space-evenly;
+  }
+
+  .contact {
+      width: 60%;
+  }
+
+  .contact-text {
+      padding-bottom: 20px;
+  }
+
+  footer {
+      padding-bottom: 5px;
+      width:100%;
+      margin: auto;
   }
