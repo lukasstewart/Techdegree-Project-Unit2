@@ -108,6 +108,36 @@ h3 {
     padding-right: 10px;
 }
 
+.languages {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.languages h2 {
+    padding-bottom: 20px;
+}
+.skills-cards {
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.skill-1,
+.skill-2,
+.skill-3 {
+    width: 30%;
+    min-width: 88px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 5px -2px #4a4a4a63 ;
+    margin: 3px;
+}
+
+.skills-cards img {
+    width: 80%;
+}
+
 .contact {
     text-align: center;
     font-weight: 100;
@@ -140,11 +170,16 @@ footer p {
     padding-top: 8px;
 }
 
-button {
+.button {
     background-color: rgba(83, 81, 81, 0.315);
     padding: 5px 20px;
     border-radius: 5px;
     margin: 15px 5px 10px;
+    color: white;
+}
+
+.button  {
+    text-decoration: none;
     color: white;
 }
 
@@ -212,11 +247,19 @@ button {
     padding: 0 25px 50px;
    }
 
+   .languages {
+       padding-top: 30px;
+   }
+
+   .skills-cards {
+       width: 50%;
+   }
+
    .contact {
        padding: 20px 70px 20px 70px;
    }
 
-   button {
+   .button {
        display: none;
    }
 
@@ -290,6 +333,15 @@ button {
       justify-content: space-evenly;
   }
 
+  .skills-cards {
+      width: 70%;
+  }
+
+  .skill-1,
+  .skill-2,
+  .skill-3 {
+      width: 20%;
+  }
   .contact {
       width: 60%;
   }
@@ -303,3 +355,4 @@ button {
       width:100%;
       margin: auto;
   }
+}
