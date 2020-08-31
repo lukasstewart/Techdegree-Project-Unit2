@@ -194,8 +194,7 @@ footer p {
 }
 
 
-@media only screen 
-  and (min-width: 768px)  {
+@media (min-width: 768px)  {
 
     body {
         width: 90%;
@@ -304,8 +303,7 @@ footer p {
    }
   }
 
-  @media only screen 
-  and (min-width: 1024px)  {
+  @media (min-width: 1024px)  {
 
     body {
         width: 90%;
